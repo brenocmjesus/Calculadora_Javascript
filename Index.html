@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Teste</title>
+</head>
+<body>
+
+    <H1>Teste para contagem da maquina</H1>
+    <h3>Aqui insira a quantidade que falta de produto</h3>
+    <br>
+    Quantidade que falta
+    <br>
+    <input type="number" name="qtd" id="qtd"><br><br>
+    Peso da Embalagem<br>
+    <input type="number" name="pesoembala" id="pesoembala"><br><br>
+    Pesos da Barra<br>
+    <input type="number" name="pesobarra" id="pesobarra"><br><br>
+    <input type="button" value="Calcule" id="calc" onclick="Calcular()">
+
+    
+
+    <script>
+        
+
+        function Calcular(){
+            var qtd = document.getElementById(qtd);
+            var pesoembala = document.getElementById(pesoembala);
+            var pesobarra = document.getElementById(pesobarra);
+            var qtdtotal = qtd * pesoembala
+            var result = qtdtotal / pesobarra
+           alert("Faltam ainda " + result + " barras")
+            
+        };
+        
+
+    </script>
+
+
+</body>
+</html>
