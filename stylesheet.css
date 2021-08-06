@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    background-color: rgb(0, 0, 0);
+  }
+  div{
+      background-color: #000000;
+  }
+  
+ h1 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+  }
+
+  h3 {
+      color: red;
+      text-align: center;
+  }
+
+  p {
+      color: white;
+      text-align: center;
+      font-size: x-large;
+  }
+
+  form {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    padding: 20px;
+
+  }
+
+  input {
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+
+  title{
+    color: red;
+  }
+
+  #calc{ 
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+
+  }
+  .btncalc {
+    width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #c5c5c5;
+    font-size: 18px;
+
+}
+
+ .btncalc:hover {
+    background: #767676;
+    border: solid #99C624 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ };
+
+ .box {
+    width: auto;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    background: #d60d0d;
+    text-align: center;
+    transition: 0.25s;
+    margin-top: 100px;
+}
